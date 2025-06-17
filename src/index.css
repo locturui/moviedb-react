@@ -16,6 +16,8 @@
   --font-dm-sans: DM Sans, sans-serif;
 
   --breakpoint-xs: 480px;
+
+  --background-image-hero-pattern: url("/bg.png");
 }
 
 @layer base {
