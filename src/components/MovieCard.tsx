@@ -6,7 +6,7 @@ type MovieCardProps = {
 
 const MovieCard = ({ movie }: MovieCardProps) => {
   return (
-    <li className="movie-card" key={movie.id}>
+    <li className="movie-card">
         <img 
             src={movie.poster_path ? `https://image.tmdb.org/t/p/w500${movie.poster_path}` : '/No-Poster.png'} 
             alt={movie.title} 
